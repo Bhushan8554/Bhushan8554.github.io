@@ -4,12 +4,185 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Bhushan-Taru</title>
+    <Style>
+        *{
+            padding: 0;
+            margin: 0;
+            font-family: monospace;
+            box-sizing: border-box;
+        }
+        #Navbar{
+            width: 95%;
+            margin: auto;
+            text-align: end;
+            border: 1px solid;
+            padding: 10px;
+            border-radius: 10px;
+            background-color: #b2d6f6;
+        }
+        #navbar{
+            width: 20%;
+            margin-left: 2%;
+            display: none;
+            border: 1px solid;
+            padding: 10px;
+            border-radius: 10px;
+            background-color: #b2d6f6;
+        }
+        #Navbar>button{
+            border-radius: 5px;
+            padding: 5px 10px;
+            text-decoration: underline;
+            font-family:monospace;
+            border: transparent;
+            text-align: center;
+            font-size: 15px;
+            font-weight: bold;
+            font-style: italic;
+            margin-right: 1%;
+        }
+        body{
+            background-color:darkslateblue;
+        }
+        #about{
+            background-color: coral;
+            width: 95%;
+            margin: 2% auto;
+            border-radius: 10px;
+            display: flex;
+            padding: 10px;
+        }#about h1{
+            font-size: 30px;
+        }
+        #about h3{
+            font-size: 15px;
+        }
+        #about>div:first-child{
+            background-color:chocolate;
+            width: 45%;
+            margin: 2% auto;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            color:antiquewhite;
+            padding: 10px 20px;
+        }
+        #about>div:last-child{
+            background-color:chocolate;
+            width: 45%;
+            margin: 2% auto;
+            border-radius: 10px;
+            color:antiquewhite;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content:center;
+            text-align: center;
+            padding: 25px;
+        }
+        #about>div>img{
+            width: 50%;
+        }
+        @media only screen and (max-width: 900px) {
+            #about{
+                display: block;
+            }
+            #about>div:first-child{
+            width: 95%;
+            
+        }
+        #about>div:last-child{
+            width: 95%;
+        }#about h1{
+            font-size: 25px;
+        }
+        #about h3{
+            font-size: 15px;
+        }
+        }
+        @media only screen and (max-width: 480px) {
+            #Navbar{
+                display: none;
+            }#navbar{
+                display: block;
+            }
+            #about{
+                display: block;
+            }
+            #about>div:first-child{
+                width: 95%;
+                display: block;
+                text-align: center;
+            }
+            #about>div:last-child{
+                width: 95%;
+                display: block;
+            }#about h1{
+                font-size: 20px;
+            }
+            #about h3{
+                font-size: 10px;
+            }
+        }
+    </Style>
 </head>
 <body>
-    <img src="./img/Untitled-2022-09-09-2057.png" alt="">
+    <div id="navbar">
+        menu
+    </div>
+    <div id="Navbar">
+        <button>
+            About
+        </button>
+        <button>
+            Skill
+        </button>
+        <button>
+            Tech-Stack
+        </button>
+        <button>
+            Contact
+        </button>
 
-    <h1>Hello world</h1>
+    </div>
+    
+        <div id="about">
+            <div>
+                <img src="./img/photostudio-5-designify-removebg-preview.jpg" alt="">
+                
+                <div>
+                    <h1>
+                        Hii
+                    </h1>
+                    <h1>
+                        I'm Bhushan Taru
+                    </h1>
+                    <h1>
+                        Web Developer
+                    </h1>
+                    <h3>
+                        Frontend | Backend Developer
+                    </h3>
+                </div>
+            </div>
+            <div>
+                <h1>
+                    Know About Me
+                </h1>
+                <h3>
+                    I am a Passinate Developer Who Loves to Work on Java at Backend and JavaScript at Frontend, I can design 
+                    web pages with the hepl of raw CSS
+                </h3>
+    
+            </div>
+        </div>
+        <!-- <img src="./img/Untitled-2022-09-09-2057.png" alt=""> -->
+
+    <!-- <h1>Hello world</h1> -->
+    
+    
     
 </body>
 </html>
