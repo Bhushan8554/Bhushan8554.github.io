@@ -98,6 +98,7 @@
 }#techlogo>h1{
     margin: 10px auto;
     font-family: monospace;
+    font-size: 3vw;
 }
 #techlogo {
   display: block;
@@ -197,7 +198,7 @@
 .container .card
 {
     max-width: 25%;
-    height: 20vw;
+    height: 15vw;
     margin: 30px 10px;
     padding: 20px 15px;
     box-shadow: 0 5px 20px rgba(0,0,0,0.5);
@@ -207,13 +208,12 @@
 }
 .container .card:hover
 {
-    height: 90%;
+    height: 80%;
 }
 .container .card .imgContainer
 {
     position: relative;
     width:94%;
-    height:20vw;
     top:-50px;
     left:10px;
     z-index: 1;
@@ -223,7 +223,11 @@
 .container .card .imgContainer img
 {
     width: 100%;
+    height: 100%;
     border-radius: 3vh 3vh 1vh 1vh;
+}
+.imgContainer h2{
+    font-size: 2vw;
 }
 .container .card .content
 {
@@ -231,7 +235,7 @@
     margin-top: -140px;
     padding: 10px 15px;
     text-align: center;
-    color:#111;
+    color:antiquewhite;
     visibility: hidden;
     opacity: 0;
     pointer-events: none;
@@ -244,6 +248,15 @@
     margin-top: -40px;
     transition-delay: 0.3s;
 }
+#links>img{
+    width: 10%;
+    cursor: pointer;
+}
+#links2>img{
+    width: 10%;
+    cursor: pointer;
+}
+
 
 
         @media only screen and (max-width: 900px) {
@@ -401,20 +414,29 @@
             <div  class="container d-flex align-items-center justify-content-center position-relative flex-wrap">
                 <div class="card d-flex position-relative flex-column">
                     <div class='imgContainer'>
-                        <img src='https://images.pexels.com/photos/1456268/pexels-photo-1456268.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'>
+                        <img src='https://images.ctfassets.net/lh3zuq09vnm2/1poh4lBPsO6WiEDOJM6SR2/cccb3f12ab22de2ff8d347d52ee45b18/hotjar_og_image.png'>
+                        <h2>HotJar_Clone</h2>
+                        <div id="links">
+                            <img src="./img/Git.png" alt="" >
+                            <img src="./img/netlify.svg" alt="">
+                        </div>
                     </div>
                     <div class="content">
-                        <h2>Card One</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget velit tristique, sollicitudin leo viverra, suscipit neque. Aliquam ut facilisis urna, in pretium nibh.  Morbi in leo in eros commodo volutpat ac sed dolor.</p>
+                        <h3>Hotjar is the fast & visual way to understand your users, providing everything your team needs to uncover insights and make the right changes to your site. Connect all the dots with one powerful solution providing:</h3>
+                        
                     </div>
                 </div>
                 <div class="card d-flex position-relative flex-column">
                     <div class='imgContainer'>
-                        <img src='https://images.pexels.com/photos/196667/pexels-photo-196667.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'>
+                        <img src='https://cdn.shopify.com/s/files/1/0449/5225/6667/files/website-logo.png?height=628&pad_color=ececec&v=1596288204&width=1200'>
+                        <h2>Kimaye_Clone</h2>
+                        <div id="links2">
+                            <img src="./img/Git.png" alt="" >
+                            <img src="./img/netlify.svg" alt="">
+                        </div>
                     </div>
                     <div class="content">
-                        <h2>Card Two</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget velit tristique, sollicitudin leo viverra, suscipit neque. Aliquam ut facilisis urna, in pretium nibh.  Morbi in leo in eros commodo volutpat ac sed dolor.</p>
+                        <h3>Kimaye is a global consumer brand for INL Farms meeting global standards of food safety and providing transparency to its consumers through its tech-driven platform.</h3>
                     </div>
                 </div>
             </div>
