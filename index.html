@@ -59,15 +59,21 @@
             font-size: 1vw;
         }
         #about>div:first-child{
-            background-color:chocolate;
+            background-color: chocolate;
             width: 45%;
             margin: 2% auto;
             border-radius: 3vh;
+            color:antiquewhite;
+            padding: 2vh 3vh;
+        }
+        #about>div:first-child>div{
+            /* background-color:chocolate; */
+            
+           
             display: flex;
             align-items: center;
             justify-content: space-around;
-            color:antiquewhite;
-            padding: 2vh 3vh;
+           
         }
         #about>div:last-child{
             background-color:chocolate;
@@ -82,28 +88,13 @@
             text-align: center;
             padding: 3vh;
         }
-        #about>div>img{
-            width: 50%;
+        #about>div>div>img{
+            width: 35%;
         }
 
-#techlogo-cont{
-    width: 95%;
-    margin: auto;
-    background-color: coral;
-    padding: 5vh;
-    border-radius: 3vh;
-    text-align: center;
-    color: antiquewhite;
-    font-size: 3vh;
-}#techlogo>h1{
-    margin: 10px auto;
-    font-family: monospace;
-    font-size: 3vw;
-}
+
 #techlogo {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
   background-color: chocolate;
   padding: 10px;
   border-radius: 10px;
@@ -111,31 +102,25 @@
 #techlogo .techlogo-wrap {
   display: block;
   width: 60%;
-  margin: 0 auto;
   overflow: hidden;
-  margin-bottom: 10px;
 
 }
 #techlogo .techlogo-wrap ul {
   display: block;
   list-style: none;
   position: relative;
-  margin-left: auto;
-  margin-right: auto;
 }
 #techlogo .techlogo-wrap ul li {
   display: block;
   float: left;
   position: relative;
-  width: 220px;
-  height: 100px;
-  line-height: 100px;
-  text-align: center;
+  /* width: 220px;
+  height: 100px; */
+  width: 9%;
 }
 #techlogo .techlogo-wrap ul li img {
   vertical-align: middle;
-  max-width: 100%;
-  max-height: 100%;
+  width: 40%;
   -webkit-transition: 0 linear left;
   -moz-transition: 0 linear left;
   transition: 0 linear left;
@@ -158,14 +143,15 @@
     color: antiquewhite;
     font-size: 3vh;
     display: grid;   
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: auto;
-    gap: 3vw;
+    grid-template-columns:45% 45%;
+    grid-template-rows: auto auto;
+    grid-row-gap: 5%;
+    grid-column-gap: 2%;
+    justify-content: center;
+    
 }
 #skills>div{
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
+  display: block;
   background-color: chocolate;
   padding: 10px;
   border-radius: 10px;
@@ -293,7 +279,7 @@
             #about{
                 display: block;
             }
-            #about>div:first-child{
+            #about>div:first-child>div{
                 width: 95%;
                 display: block;
                 text-align: center;
@@ -316,6 +302,11 @@
             {   width: 95%;
                 height: 180px;
                 margin:50px auto;
+            }#techlogo .techlogo-wrap {
+                display: block;
+                width: 100%;
+                overflow: hidden;
+
             }
         }
     </Style>
@@ -342,22 +333,45 @@
     
         <div id="about">
             <div>
-                <img src="./img/photostudio-5-designify-removebg-preview.jpg" alt="">
-                
                 <div>
-                    <h1>
-                        Hii
-                    </h1>
-                    <h1>
-                        I'm Bhushan Taru
-                    </h1>
-                    <h1>
-                        Web Developer
-                    </h1>
-                    <h3>
-                        Frontend | Backend Developer
-                    </h3>
+                    <img src="./img/photostudio-5-designify-removebg-preview.jpg" alt="">
+                
+                    <div>
+                        <h1>
+                            Hii
+                        </h1>
+                        <h1>
+                            I'm Bhushan Taru
+                        </h1>
+                        <h1>
+                            Web Developer
+                        </h1>
+                        <h3>
+                            Frontend | Backend Developer
+                        </h3>
+                    </div>
                 </div>
+                <div id="techlogo">
+                    <div class="techlogo-wrap">
+                      <ul id="techlogo-list" class="clearfix">
+                        <li>
+                          <img src="./img/Html.png" alt="Black Ace">
+                        </li>
+                        <li>
+                          <img src="./img/css.png" alt="First State Bank">
+                        </li>
+                        <li>
+                          <img src="./img/js.png" alt="Custom Aire">
+                        </li>
+                        <li>
+                            <img src="./img/java.png" alt="Custom Aire">
+                        </li>
+                        <li>
+                            <img src="./img/Git.png" alt="Custom Aire">
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
             </div>
             <div>
                 <h1>
@@ -374,28 +388,7 @@
 
         <div id="techlogo-cont">
             
-            <div id="techlogo">
-                <h1>Tech-Stack</h1>
-                <div class="techlogo-wrap">
-                  <ul id="techlogo-list" class="clearfix">
-                    <li>
-                      <img src="./img/Html.png" alt="Black Ace">
-                    </li>
-                    <li>
-                      <img src="./img/css.png" alt="First State Bank">
-                    </li>
-                    <li>
-                      <img src="./img/js.png" alt="Custom Aire">
-                    </li>
-                    <li>
-                        <img src="./img/java.png" alt="Custom Aire">
-                    </li>
-                    <li>
-                        <img src="./img/Git.png" alt="Custom Aire">
-                    </li>
-                  </ul>
-                </div>
-              </div>
+           
         </div>
        
         <div id="skills">
