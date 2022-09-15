@@ -5,7 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bhushan-Taru</title>
+    <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+
+        <!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
+        <link
+        rel="stylesheet"
+        href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+        />
     <Style>
+        
         *{
             padding: 0;
             margin: 0;
@@ -241,11 +249,53 @@
 #links2>a>img{
     width: 10%;
     cursor: pointer;
+}#gitcal{
+    width: 95%;
+    margin:2% auto;
+    border-radius: 3vh;
+    background-color: coral;
+    color: antiquewhite;
+    padding: 10px;
+}
+
+
+#stats{
+    width: 95%;
+    margin: 2% auto;
+    background-color: coral;
+    border-radius: 3vh;
+    padding: 20px;
+}
+#stats>div{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    text-align: center;
+    color: antiquewhite;
+    
+}#stats>div>div>div{
+    width: 10vw;
+    height: 10vw;
+    margin: auto;
+    border-radius:50%;
+    border: 10px solid;
+    border-color: chocolate;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 
 
         @media only screen and (max-width: 900px) {
+            #stats>div>div>div{
+                width: 15vw;
+                height: 15vw;
+            }
             #about{
                 display: block;
             }
@@ -271,6 +321,19 @@
         }
         }
         @media only screen and (max-width: 480px) {
+            #stats>div{
+                width: 90%;
+                margin: auto;
+                display: block;
+            }#stats>div>div>div{
+                width: 25vw;
+                height: 25vw;
+                border: 5px solid;
+                border-color: chocolate;
+                display: flex;
+                justify-content: center;
+                margin: auto;
+            }
             #Navbar{
                 display: none;
             }#navbar{
@@ -444,6 +507,55 @@
                 </div>
             </div>
         </div>
+
+
+        <div id="stats">
+           <div>
+            <div>
+                <div><h3>1000+</h3></div>
+                <h1>
+                    Hours
+                </h1>
+                <h3>of full stack coding</h3>
+            </div>
+            <div>
+                <div><h3>210+</h3></div>
+                <h1>
+                    Git
+                </h1>
+                <h3>Commits</h3>
+            </div>
+            <div>
+                <div><h3>2</h3></div>
+                <h1>
+                    Projects
+                </h1>
+                <h3>Done</h3>
+            </div>
+            <div>
+                <div><h3>100+</h3></div>
+                <h1>
+                    Hours
+                </h1>
+                <h3>of full soft Skill Sesion</h3>
+            </div>
+            <div>
+                <div><h3>1000+</h3></div>
+                <h1>
+                    Hours
+                </h1>
+                <h3>of full stack coding</h3>
+            </div>
+           </div>
+        </div>
+
+
+       <div id="gitcal">
+        <div class="calendar">
+            <!-- Loading stuff -->
+            Loading the data just for you.
+        </div>
+       </div>
     
 </body>
 </html>
@@ -486,4 +598,10 @@
   }
 });
 
+</script>
+<script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+<script>
+    GitHubCalendar(".calendar", "bhushan8554");
+    // or enable responsive functionality
+    GitHubCalendar(".calendar", "bhushan8554", { responsive: true });
 </script>
