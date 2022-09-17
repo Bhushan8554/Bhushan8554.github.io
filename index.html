@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bhushan-Taru</title>
+    
     <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
 
         <!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
@@ -12,7 +13,9 @@
         rel="stylesheet"
         href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
         />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <Style>
+        
         
         *{
             padding: 0;
@@ -289,6 +292,184 @@
     align-items: center;
 }
 
+.contact {
+  display: flex;
+  flex-direction: column; 
+  position: relative;
+  background:coral;
+  width:95%;
+  margin:auto;
+  border-radius:3vh;
+  color:antiquewhite;
+}
+
+.contact-header {
+  text-align: center;
+}
+
+#co-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: antiquewhite;
+  text-transform: uppercase;
+}
+
+#co-text {
+  font-size: 3rem;
+  color: white;
+  padding-bottom: 2rem;
+}
+
+.contact-content {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  height: auto;
+  width: 60%;
+  background-color: chocolate;
+  margin-bottom: 2rem;
+}
+
+.contact-form {
+  /* font-family: "Montserrat", sans-serif; */
+  padding: 5rem;
+}
+
+#form-title {
+  color: antiquewhite;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  line-height: 1px;
+  margin-left: 0rem;
+  margin-bottom: 3rem;
+}
+
+fieldset {
+  border: none;
+}
+
+.form-field {
+  outline: none;
+  width: 200%;
+    border-bottom: 2px solid black;
+  color:antiquewhite;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: antiquewhite;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: antiquewhite;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: antiquewhite;
+}
+#name, #email, #subject, #message {
+  font-family: "Montserrat", sans-serif;
+  color: antiquewhite;
+  outline: none;
+  background: transparent;
+  border: none;
+  letter-spacing: 2px;
+  font-size: 1rem;
+  line-height: 2rem;
+  padding-bottom: 0.7rem;
+}
+
+textarea, #message {
+  width: 100%;
+  color: antiquewhite;
+  overflow: visible;
+}
+
+#form-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  border: none;
+  color: antiquewhite;
+  font-size: 1.2rem;
+  letter-spacing: 2.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  width: 200%;
+  height: 60px;
+  background-color: #c31432;
+  cursor: pointer;
+  transition: all .3s ease;
+}
+
+#form-btn:hover {
+  opacity: 0.9;
+  transform: translateY(-2.5%);
+  box-shadow: 0 0 15px 0 #000;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 2rem;
+  background-color: rgba(0, 87, 250, 0.542);
+}
+
+.contact-info h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  color: antiquewhite;
+}
+
+.contact-info a {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  color: antiquewhite;
+  font-size: 1.2rem;
+  letter-spacing: 0;
+  line-height: 3rem;
+  margin-bottom: 5rem;
+  transition: all .3s ease;
+}
+
+.contact-info a:hover {
+  transform: translateY(-2.5%);
+  color: yellow;
+}
+
+.contact-info .fab {
+  font-size: 1.5rem;
+  line-height: 3rem;
+  padding-left: 2rem;
+  color: antiquewhite;
+  cursor: pointer;
+  transition: all .3s ease;
+}
+
+.fab:hover{
+  transform: scale(1.2);
+  color: blue;
+}
+#resume a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+#resume{
+    margin-top: 3%;
+    width:15%;
+    padding:1%;
+    border-radius:5px;
+    text-decoration: underline;
+    background-color: #b2d6f6;
+    /* margin-right: 80%; */
+    cursor: pointer;
+    color: antiquewhite;
+}
+
+
 
 
         @media only screen and (max-width: 900px) {
@@ -319,8 +500,64 @@
             height: 65%;
             margin:50px auto;
         }
+
+                .contact-content {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .form-field {
+            width: 100%;
+        }
+        
+        #form-btn {
+            width: 100%;
+        }
+        
+        #form-title {
+            margin: 3rem auto;
+            width: 100%;
+            font-size: 1.5rem;
+        }
+        
+        .contact-header{
+            margin: 5rem 5rem 3rem 5rem;
+        }
+        
+        #co-title {
+            font-size: 1rem;
+        }
+        
+        #co-text {
+            font-size: 2.5rem;
+        }
+        
+        .contact-form {
+            padding: 2rem;
+        }
+        #resume a{
+            text-decoration: none;
+            color: black;
+            font-size: 1.2rem;
+        }
+        #resume{
+            margin-top: 3%;
+            width:15%;
+            padding:1%;
+            border-radius:5px;
+            text-decoration: underline;
+            background-color: #b2d6f6;
+            /* margin-right: 80%; */
+            cursor: pointer;
+            color: antiquewhite;
+        }
         }
         @media only screen and (max-width: 480px) {
+            .contact-info a {
+            
+            font-size: 0.9rem;
+           
+            }
             #stats>div{
                 width: 90%;
                 margin: auto;
@@ -371,7 +608,26 @@
                 overflow: hidden;
 
             }
+            #resume a{
+                text-decoration: none;
+                color: black;
+                font-size: 1rem;
+            }
+            #resume{
+                margin-top: 3%;
+                width:25%;
+                padding:1%;
+                border-radius:5px;
+                text-decoration: underline;
+                background-color: #b2d6f6;
+                /* margin-right: 80%; */
+                cursor: pointer;
+                color: antiquewhite;
+            }
+
         }
+
+ 
     </Style>
 </head>
 <body>
@@ -444,7 +700,7 @@
                     I am a Passinate Developer Who Loves to Work on Java at Backend and JavaScript at Frontend, I can design 
                     web pages with the hepl of raw CSS
                 </h3>
-    
+                <button id="resume"><a href="./resume/Bhushan_Taru_Resume.pdf">Resume</a></button>
             </div>
         </div>
 
@@ -550,6 +806,47 @@
             Loading the data just for you.
         </div>
        </div>
+
+
+       <section class="contact">
+        <div class="contact-header">
+          <h3 id="co-title">Contact Me</h3>
+          <h1 id="co-text">Reach out for a new project or to say hello</h1>
+        </div>
+        
+        <div class="contact-content">
+          <div class="contact-form">
+            <h3 id="form-title">Send me a message</h3>
+          <form action="mailto:npeel3497@gmail.com" method="post" enctype="text/plain">
+            <fieldset>
+              <div class="form-field">
+                <input name="name" type="text" id="name" placeholder="Your Name"></input>
+              </div>
+            <div class="form-field">
+                <input name="email" type="email" id="email" placeholder="Your Email"></input>
+              </div>
+            <div class="form-field">
+                <input name="Subject" type="text" id="subject" placeholder="Subject"></input>
+              </div>
+          <div class="form-field">
+                <textarea name="message" type="text" id="message" placeholder="Your Message"></textarea>
+              </div>
+            </fieldset>
+        <input id="form-btn" type="submit" value="send">
+          </form>
+      </div>
+        
+          <div class="contact-info">
+            <h3>Email Me At </h3>
+            <a href="mailto:npeel3497@gmail.com"><p>bhushantaru4297@gmail.com</p></a>
+            <h3>Find Me On </h3>
+            <div class="contact-links">
+              <a href="https://www.linkedin.com/in/bhushan-taru-b973a1160/"><i class="fa fa-linkedin-square"></i></a>
+              <a href="https://github.com/Bhushan8554"><i class="fa fa-github"></i></a>
+            </div>
+          </div>
+          </div>
+      </section>
     
 </body>
 </html>
