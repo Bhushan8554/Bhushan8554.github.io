@@ -41,7 +41,7 @@
             border-radius: 2vh;
             background-color: #b2d6f6;
         }
-        #Navbar>button{
+        #Navbar>a>button{
             border-radius: 1vh;
             padding: 1vh 2vh;
             text-decoration: underline;
@@ -52,6 +52,33 @@
             font-weight: bold;
             font-style: italic;
             margin-right: 1%;
+            cursor: pointer;
+        }
+        #hiddenNb>a>button{
+            border-radius: 1vh;
+            padding: 1vh 2vh;
+            margin: 5px auto;
+            text-decoration: underline;
+            font-family:monospace;
+            border: transparent;
+            text-align: center;
+            font-size: 2vw;
+            font-weight: bold;
+            font-style: italic;
+            margin-right: 1%;
+            cursor: pointer;
+        }
+        #hiddenNb{
+            position: absolute;
+            background-color: #b2d6f6;
+            display: none;
+            z-index: 2;
+            width: 15%;
+            border-radius: 3vh;
+            height: 500px;
+            top: 50px;
+            left: 20px;
+            text-align: center;
         }
         body{
             background-color:darkslateblue;
@@ -205,7 +232,7 @@
 }
 .container .card:hover
 {
-    height: 85%;
+    height: 100%;
 }
 .container .card .imgContainer
 {
@@ -470,7 +497,12 @@ textarea, #message {
 }
 
 
-
+.content>div{
+    display: flex;
+    justify-content: center;
+}.content>div>img{
+    width: 10%;
+}
 
         @media only screen and (max-width: 900px) {
             #stats>div>div>div{
@@ -579,6 +611,7 @@ textarea, #message {
                 display: none;
             }#navbar{
                 display: block;
+                cursor: pointer;
             }
             #about{
                 display: block;
@@ -635,22 +668,42 @@ textarea, #message {
     </Style>
 </head>
 <body>
-    <div id="navbar">
+    <div id="navbar" onclick="showDiv()">
         menu
     </div>
-    <div id="Navbar">
-        <button>
+    <div id="hiddenNb" >
+        <a href="#about"><button onclick="showDiv()">
             About
-        </button>
-        <button>
-            Skill
-        </button>
-        <button>
-            Tech-Stack
-        </button>
-        <button>
+        </button></a>
+        <a href="#skills"><button onclick="showDiv()">
+            Skills
+        </button></a>
+        <a href="#project"><button onclick="showDiv()">
+            Projects
+        </button></a>
+        <a href="#stats"><button onclick="showDiv()">
+            Stats
+        </button></a>
+        <a href="#contact"><button onclick="showDiv()">
             Contact
-        </button>
+        </button></a>
+    </div>
+    <div id="Navbar">
+        <a href="#about"><button >
+            About
+        </button></a>
+        <a href="#skills"><button >
+            Skills
+        </button></a>
+        <a href="#project"><button >
+            Projects
+        </button></a>
+        <a href="#stats"><button >
+            Stats
+        </button></a>
+        <a href="#contact"><button >
+            Contact
+        </button></a>
 
     </div>
     
@@ -748,8 +801,9 @@ textarea, #message {
                         </div>
                     </div>
                     <div class="content">
-                        <h3>Hotjar is the fast & visual way to understand your users, providing everything your team needs to uncover insights and make the right changes to your site. Connect all the dots with one powerful solution providing:</h3>
-                        
+                        <h3>Hotjar is the fast & visual way to understand your users, providing everything your team needs to uncover insights and make the right changes to your site.</h3>
+                        <h3>Developed By Using</h3>
+                        <div><img src="./img/Html.png" alt=""><img src="./img/css.png" alt=""><img src="./img/js.png" alt=""></div>
                     </div>
                 </div>
                 <div class="card d-flex position-relative flex-column">
@@ -763,6 +817,8 @@ textarea, #message {
                     </div>
                     <div class="content">
                         <h3>Kimaye is a global consumer brand for INL Farms meeting global standards of food safety and providing transparency to its consumers through its tech-driven platform.</h3>
+                        <h3>Developed By Using</h3>
+                        <div><img src="./img/Html.png" alt=""><img src="./img/css.png" alt=""><img src="./img/js.png" alt=""></div>
                     </div>
                 </div>
             </div>
@@ -812,7 +868,7 @@ textarea, #message {
        </div>
 
 
-       <section class="contact">
+       <section class="contact" id="contact">
         <div class="contact-header">
           <h3 id="co-title">Contact Me</h3>
           <h1 id="co-text">Reach out for a new project or to say hello</h1>
@@ -892,6 +948,18 @@ textarea, #message {
     }
   }
 });
+
+let isBock=false;
+function showDiv(){
+   if(!isBock){
+    document.getElementById("hiddenNb").style.display="block";
+    isBock=true;
+   }else{
+    document.getElementById("hiddenNb").style.display="none";
+    isBock=false;
+   }
+    
+}
 
 </script>
 <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
