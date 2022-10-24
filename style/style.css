@@ -12,6 +12,7 @@
     margin: auto;
     text-align: end;
     border: 1px solid;
+    z-index: 3;
     padding: 2vh;
     border-radius: 3vh;
     background-color: #b2d6f6;
