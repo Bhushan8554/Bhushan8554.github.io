@@ -327,6 +327,19 @@ body{
     align-items: center;
 }
 
+#gitStats{
+    width: 95%;
+    margin: 2% auto;
+    background-color: coral;
+    border-radius: 3vh;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
 .contact {
   display: flex;
   flex-direction: column; 
