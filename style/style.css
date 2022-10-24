@@ -327,16 +327,25 @@ body{
     align-items: center;
 }
 
+#gitStats>h1{
+    margin-bottom: 2%;
+}
 #gitStats{
     width: 95%;
-    margin: 2% auto;
+    margin: auto;
     background-color: coral;
-    border-radius: 3vh;
-    padding: 20px;
+    padding: 2%;
+    border-radius:3vh ;text-align: center;
+    color: antiquewhite;
+}
+#gitStats>div{
     display: flex;
     justify-content: center;
-    align-items: center;
-   
+    gap: 2%;
+    
+}
+#gitStats>div>div{
+    width: 45%;
 }
 
 
@@ -349,6 +358,7 @@ body{
   margin:auto;
   border-radius:3vh;
   color:antiquewhite;
+  padding: 2%;
 }
 
 .contact-header {
@@ -459,10 +469,12 @@ textarea, #message {
 .contact-info {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items:center;
+  margin-top: 2%;
   justify-content: center;
   padding: 2rem;
-  background-color: rgba(0, 87, 250, 0.542);
+  border-radius: 3vh;
+  background-color: chocolate;
 }
 
 .contact-info h3 {
@@ -665,6 +677,16 @@ textarea, #message {
         width: 100%;
         overflow: hidden;
 
+    }
+    
+    #gitStats>div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #gitStats>div>div{
+        width: 70%;
     }
     #resume a{
         text-decoration: none;
