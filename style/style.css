@@ -197,11 +197,28 @@ body{
     
 }
 #skills>div{
+    width: 95%;
+    margin:3vw auto;
+    background-color: coral;
+    padding: 5vh;
+    border-radius: 3vh;
+    text-align: center;
+    color: antiquewhite;
+    font-size: 3vh;
+    display: grid;   
+    grid-template-columns:45% 45%;
+    grid-template-rows: auto auto;
+    grid-row-gap: 5%;
+    grid-column-gap: 2%;
+    justify-content: center;
+    
+}
+#skills>div>div{
   display: block;
   background-color: chocolate;
   padding: 10px;
   border-radius: 10px;
-}#skills>div>img{
+}#skills>div>div>img{
     width: 20%;
 }
 
