@@ -190,6 +190,8 @@ body{
     font-size: 3vh;
    
     
+}#skills>h2{
+    margin-bottom: 1%;
 }
 #skills>div{
     width: 100%;
@@ -671,7 +673,7 @@ textarea, #message {
     #about h3{
         font-size: 10px;
     }
-    #skills{   
+    #skills>div{   
         grid-template-columns: repeat(1,1fr);
         grid-template-rows: auto;
         gap: 3vw;
