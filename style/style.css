@@ -288,12 +288,15 @@ body{
     width: 10%;
     cursor: pointer;
 }#gitcal{
+    text-align: center;
     width: 95%;
     margin:2% auto;
     border-radius: 3vh;
     background-color: coral;
     color: antiquewhite;
     padding: 10px;
+}#gitcal>h1{
+    margin: 2% auto;
 }
 
 
