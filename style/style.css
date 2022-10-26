@@ -188,23 +188,11 @@ body{
     text-align: center;
     color: antiquewhite;
     font-size: 3vh;
-    display: grid;   
-    grid-template-columns:45% 45%;
-    grid-template-rows: auto auto;
-    grid-row-gap: 5%;
-    grid-column-gap: 2%;
-    justify-content: center;
+   
     
 }
 #skills>div{
-    width: 95%;
-    margin:3vw auto;
-    background-color: coral;
-    padding: 5vh;
-    border-radius: 3vh;
-    text-align: center;
-    color: antiquewhite;
-    font-size: 3vh;
+    width: 100%;
     display: grid;   
     grid-template-columns:45% 45%;
     grid-template-rows: auto auto;
