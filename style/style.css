@@ -313,6 +313,11 @@ body{
     background-color: coral;
     border-radius: 3vh;
     padding: 20px;
+    color: antiquewhite;
+    text-align: center;
+}
+#stats>h1{
+    margin: 1% auto;
 }
 #stats>div{
     width: 90%;
