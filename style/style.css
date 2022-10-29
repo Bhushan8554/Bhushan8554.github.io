@@ -10,13 +10,18 @@
 #Navbar{
     width: 100%;
     margin: auto;
-    text-align: end;
+    display: flex;
+    justify-content: flex-end;
+    gap: 2%;
     border: 1px solid;
     z-index: 3;
     position: fixed;
     top: 0%;
     padding: 2vh;
     background-color: #b2d6f6;
+}
+#Navbar>#hm{
+    flex: 1;
 }
 #navbar{
     width: 20%;
@@ -631,6 +636,7 @@ textarea, #message {
         cursor: pointer;
         color: antiquewhite;
     }
+   
 }
 @media only screen and (max-width: 480px) {
     .contact-info a {
