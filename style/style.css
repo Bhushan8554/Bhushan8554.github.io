@@ -96,10 +96,10 @@
     text-align: center;
 }
 body{
-    background-color:lightsalmon;
+    background-color:rgb(254, 143, 99);
 }
 #about{
-    background-color: lightsalmon;
+    background-color: rgb(254, 143, 99);
     width: 85%;
     margin:auto;
     margin-top: 6%;
@@ -117,7 +117,7 @@ body{
     width: 45%;
     margin: 2% auto;
     border-radius: 3vh;
-    color:antiquewhite;
+    color:white;
     padding: 2vh 3vh;
 }
 #about>div:first-child>div{
@@ -134,7 +134,7 @@ body{
     width: 45%;
     margin: 2% auto;
     border-radius: 3vh;
-    color:antiquewhite;
+    color:white;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -228,11 +228,11 @@ body{
 #skills{
     width: 88%;
     margin:3vw auto;
-    background-color: lightsalmon;
+    background-color: rgb(254, 143, 99);
     padding: 5vh;
     border-radius: 3vh;
     text-align: center;
-    color: antiquewhite;
+    color: white;
     font-size: 2.5vh;
    
     
@@ -262,12 +262,12 @@ body{
 
 #project{
     margin: auto;
-    background-color: lightsalmon;
+    background-color: rgb(254, 143, 99);
     width: 95%;
     border-radius: 3vh;
     padding: 3vh;
     text-align: center;
-    color: antiquewhite;
+    color: white;
 }
 #project h1{
     margin-bottom: 2%;
@@ -333,7 +333,7 @@ body{
     margin-top: -140px;
     padding: 10px 15px;
     text-align: center;
-    color:antiquewhite;
+    color:white;
     visibility: visible;
     opacity: 1;
     pointer-events: none;
@@ -359,7 +359,7 @@ body{
     margin:2% auto;
     border-radius: 3vh;
     background-color: c;
-    color: antiquewhite;
+    color: white;
     padding: 10px;
 }#gitcal>h1{
     margin: 2% auto;
@@ -371,10 +371,10 @@ body{
 #stats{
     width: 95%;
     margin: 2% auto;
-    background-color: lightsalmon;
+    background-color: rgb(254, 143, 99);
     border-radius: 3vh;
     padding: 20px;
-    color: antiquewhite;
+    color: white;
     text-align: center;
 }
 #stats>h1{
@@ -388,7 +388,7 @@ body{
     justify-content: space-around;
     
     text-align: center;
-    color: antiquewhite;
+    color: white;
     
 }#stats>div>div>div{
     width: 10vw;
@@ -409,10 +409,10 @@ body{
 #gitStats{
     width: 95%;
     margin: auto;
-    background-color: lightsalmon;
+    background-color: rgb(254, 143, 99);
     padding: 2%;
     border-radius:3vh ;text-align: center;
-    color: antiquewhite;
+    color: white;
 }
 #gitStats>div{
     display: flex;
@@ -429,11 +429,11 @@ body{
   display: flex;
   flex-direction: column; 
   position: relative;
-  background:lightsalmon;
+  background:rgb(254, 143, 99);
   width:95%;
   margin:auto;
   border-radius:3vh;
-  color:antiquewhite;
+  color:white;
   padding: 2%;
 }
 
@@ -444,7 +444,7 @@ body{
 #co-title {
   font-size: 1.2rem;
   font-weight: 700;
-  color: antiquewhite;
+  color: white;
   text-transform: uppercase;
 }
 
@@ -470,7 +470,7 @@ body{
 }
 
 #form-title {
-  color: antiquewhite;
+  color: white;
   font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: 1.2px;
@@ -487,23 +487,23 @@ fieldset {
   outline: none;
   width: 200%;
     border-bottom: 2px solid black;
-  color:antiquewhite;
+  color:white;
 }
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: antiquewhite;
+  color: white;
   opacity: 1; /* Firefox */
 }
 
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
-  color: antiquewhite;
+  color: white;
 }
 
 ::-ms-input-placeholder { /* Microsoft Edge */
-  color: antiquewhite;
+  color: white;
 }
 #name, #email, #subject, #message {
   font-family: "Montserrat", sans-serif;
-  color: antiquewhite;
+  color: white;
   outline: none;
   background: transparent;
   border: none;
@@ -515,7 +515,7 @@ fieldset {
 
 textarea, #message {
   width: 100%;
-  color: antiquewhite;
+  color: white;
   overflow: visible;
 }
 
@@ -524,7 +524,7 @@ textarea, #message {
   justify-content: center;
   margin-top: 3rem;
   border: none;
-  color: antiquewhite;
+  color: white;
   font-size: 1.2rem;
   letter-spacing: 2.5px;
   font-weight: 700;
@@ -556,13 +556,13 @@ textarea, #message {
 .contact-info h3 {
   font-family: "Montserrat", sans-serif;
   font-size: 1.2rem;
-  color: antiquewhite;
+  color: white;
 }
 
 .contact-info a {
   font-family: "Montserrat", sans-serif;
   text-decoration: none;
-  color: antiquewhite;
+  color: white;
   font-size: 1.2rem;
   letter-spacing: 0;
   line-height: 3rem;
@@ -579,7 +579,7 @@ textarea, #message {
   font-size: 1.5rem;
   line-height: 3rem;
   padding-left: 2rem;
-  color: antiquewhite;
+  color: white;
   cursor: pointer;
   transition: all .3s ease;
 }
@@ -602,7 +602,7 @@ textarea, #message {
     background-color: white;
     /* margin-right: 80%; */
     cursor: pointer;
-    color: antiquewhite;
+    color: white;
 }
 
 
