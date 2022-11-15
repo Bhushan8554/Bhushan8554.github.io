@@ -96,10 +96,10 @@
     text-align: center;
 }
 body{
-    background-color:coral;
+    background-color:lightsalmon;
 }
 #about{
-    background-color: coral;
+    background-color: lightsalmon;
     width: 85%;
     margin:auto;
     margin-top: 6%;
@@ -113,7 +113,7 @@ body{
     font-size: 1vw;
 }
 #about>div:first-child{
-    background-color: chocolate;
+    background-color:rgb(53, 53, 53);
     width: 45%;
     margin: 2% auto;
     border-radius: 3vh;
@@ -121,7 +121,7 @@ body{
     padding: 2vh 3vh;
 }
 #about>div:first-child>div{
-    /* background-color:chocolate; */
+    /* background-color:rgb(53, 53, 53); */
     
 
     display: flex;
@@ -130,7 +130,7 @@ body{
 
 }
 #about>div:last-child{
-    background-color:chocolate;
+    background-color:rgb(53, 53, 53);
     width: 45%;
     margin: 2% auto;
     border-radius: 3vh;
@@ -153,7 +153,7 @@ body{
     margin-bottom: 2%;
 }
 .main-container{
-    background-color: chocolate;
+    background-color: rgb(53, 53, 53);
     border-radius:10px ;
     margin: auto;
     width: 86%;
@@ -186,7 +186,7 @@ body{
 
 /*#techlogo {
   display: block;
-  background-color: chocolate;
+  background-color: rgb(53, 53, 53);
   padding: 20px;
   border-radius: 10px;
 }
@@ -228,7 +228,7 @@ body{
 #skills{
     width: 88%;
     margin:3vw auto;
-    background-color: coral;
+    background-color: lightsalmon;
     padding: 5vh;
     border-radius: 3vh;
     text-align: center;
@@ -251,7 +251,7 @@ body{
 }
 #skills>div>div{
   display: block;
-  background-color: chocolate;
+  background-color: rgb(53, 53, 53);
   padding: 10px;
   border-radius: 10px;
 }#skills>div>div>img{
@@ -262,7 +262,7 @@ body{
 
 #project{
     margin: auto;
-    background-color: coral;
+    background-color: lightsalmon;
     width: 95%;
     border-radius: 3vh;
     padding: 3vh;
@@ -291,7 +291,7 @@ body{
     margin: 30px 10px;
     padding: 20px 15px;
     box-shadow: 0 5px 20px rgba(0,0,0,0.5);
-    background-color:chocolate;
+    background-color:rgb(53, 53, 53);
     border-radius: 3vh;
 }
 
@@ -304,6 +304,9 @@ body{
     z-index: 1;
     border-radius: 3vh;
     box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+.imgContainer{
+    background-color: rgb(187, 101, 67);
 }
 .container .card .imgContainer img
 {
@@ -361,14 +364,14 @@ body{
 }#gitcal>h1{
     margin: 2% auto;
 }#gatcal>div{
-    color: chocolate;
+    color: rgb(53, 53, 53);
 }
 
 
 #stats{
     width: 95%;
     margin: 2% auto;
-    background-color: coral;
+    background-color: lightsalmon;
     border-radius: 3vh;
     padding: 20px;
     color: antiquewhite;
@@ -393,7 +396,7 @@ body{
     margin: auto;
     border-radius:50%;
     border: 10px solid;
-    border-color: chocolate;
+    border-color: rgb(53, 53, 53);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -406,7 +409,7 @@ body{
 #gitStats{
     width: 95%;
     margin: auto;
-    background-color: coral;
+    background-color: lightsalmon;
     padding: 2%;
     border-radius:3vh ;text-align: center;
     color: antiquewhite;
@@ -426,7 +429,7 @@ body{
   display: flex;
   flex-direction: column; 
   position: relative;
-  background:coral;
+  background:lightsalmon;
   width:95%;
   margin:auto;
   border-radius:3vh;
@@ -457,7 +460,7 @@ body{
   align-self: center;
   height: auto;
   width: 60%;
-  background-color: chocolate;
+  background-color: rgb(53, 53, 53);
   margin-bottom: 2rem;
 }
 
@@ -547,7 +550,7 @@ textarea, #message {
   justify-content: center;
   padding: 2rem;
   border-radius: 3vh;
-  background-color: chocolate;
+  background-color: rgb(53, 53, 53);
 }
 
 .contact-info h3 {
@@ -743,7 +746,7 @@ textarea, #message {
         width: 25vw;
         height: 25vw;
         border: 5px solid;
-        border-color: chocolate;
+        border-color: rgb(53, 53, 53);
         display: flex;
         justify-content: center;
         margin: auto;
