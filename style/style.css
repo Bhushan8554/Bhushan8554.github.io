@@ -337,14 +337,16 @@ body{
     cursor: pointer;
 }#gitcal{
     text-align: center;
-    width: 95%;
+    width: 88%;
     margin:2% auto;
     border-radius: 3vh;
-    background-color: coral;
+    background-color: c;
     color: antiquewhite;
     padding: 10px;
 }#gitcal>h1{
     margin: 2% auto;
+}#gatcal>div{
+    color: chocolate;
 }
 
 
