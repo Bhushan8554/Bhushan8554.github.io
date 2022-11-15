@@ -78,6 +78,7 @@
     font-weight: bold;
     font-style: italic;
     cursor: pointer;
+    width: 60%;
 }
 #hiddenNb{
     position: absolute;
@@ -603,6 +604,7 @@ textarea, #message {
 }
 
 @media only screen and (max-width: 900px) {
+    
     #Navbar{
         display: none;
     }#navbar{
@@ -611,6 +613,7 @@ textarea, #message {
     }
     #hiddenNb{
         height: 400px;
+        margin-left: 1%;
     }
     #stats>div>div>div{
         width: 15vw;
@@ -726,6 +729,10 @@ textarea, #message {
     }
     #hiddenNb{
         height: 320px;
+        margin: auto;
+    }
+    #hiddenNb>a>button{
+        width: 80%;
     }
     #about{
         display: block;
