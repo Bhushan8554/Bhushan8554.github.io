@@ -309,6 +309,10 @@ body{
 .imgContainer h2{
     font-size: 2vw;
 }
+
+.content>div>div>img{
+    width:30%;
+}
 .container .card .content
 {
     position: relative;
