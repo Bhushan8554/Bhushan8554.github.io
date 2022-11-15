@@ -311,7 +311,10 @@ body{
 }
 
 .content>div>div>img{
-    width:30%;
+    width:40%;
+}
+.content>div>div>h4{
+    font-size: 70%;
 }
 .container .card .content
 {
@@ -600,6 +603,15 @@ textarea, #message {
 }
 
 @media only screen and (max-width: 900px) {
+    #Navbar{
+        display: none;
+    }#navbar{
+        display: block;
+        cursor: pointer;
+    }
+    #hiddenNb{
+        height: 400px;
+    }
     #stats>div>div>div{
         width: 15vw;
         height: 15vw;
@@ -711,6 +723,9 @@ textarea, #message {
     }#navbar{
         display: block;
         cursor: pointer;
+    }
+    #hiddenNb{
+        height: 320px;
     }
     #about{
         display: block;
