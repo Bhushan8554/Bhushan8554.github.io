@@ -1,5 +1,6 @@
 
-        
+      @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
+  
         
 *{
     padding: 0;
@@ -7,6 +8,7 @@
     font-family: monospace;
     box-sizing: border-box;
 }
+
 #Navbar{
     width: 100%;
     margin: auto;
@@ -93,11 +95,11 @@
     text-align: center;
 }
 body{
-    background-color:darkslateblue;
+    background-color:coral;
 }
 #about{
     background-color: coral;
-    width: 95%;
+    width: 85%;
     margin:auto;
     margin-top: 6%;
     border-radius: 3vh;
@@ -142,17 +144,53 @@ body{
 #about>div>div>img{
     width: 35%;
 }
+.techlogo-cont{
+    width: 90%;
+    margin: auto;
+    padding: 1%;
+}.techlogo-cont>h1{
+    margin-bottom: 2%;
+}
+.main-container{
+    background-color: chocolate;
+    border-radius:10px ;
+    margin: auto;
+    max-width: 88%;
+    padding:2rem 1rem;
+}
+.grid-wrapper{
+    --auto-grid-min-size: 8rem;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.grid-wrapper li{
+    color: #ffffff;
+    font-size: 24px;
+    list-style-type: none;
+    padding: 1rem 1rem;
+    text-align: center;
+    text-transform: capitalize;
+}
+.grid-wrapper li>img{
+    width: 100%;
+}
 
 
-#techlogo {
+
+/*#techlogo {
   display: block;
   background-color: chocolate;
-  padding: 10px;
+  padding: 20px;
   border-radius: 10px;
 }
 #techlogo .techlogo-wrap {
   display: block;
-  width: 60%;
+  width: 100%;
   overflow: hidden;
 
 }
@@ -165,9 +203,9 @@ body{
   display: block;
   float: left;
   position: relative;
-  /* width: 220px;
-  height: 100px; */
-  width: 9%;
+   width: 220px;
+  height: 100px; 
+  width: 7%;
 }
 #techlogo .techlogo-wrap ul li img {
   vertical-align: middle;
@@ -183,9 +221,10 @@ body{
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
   filter: alpha(opacity=100);
   opacity: 1.0;
-}
+}*/
+
 #skills{
-    width: 95%;
+    width: 88%;
     margin:3vw auto;
     background-color: coral;
     padding: 5vh;
@@ -229,31 +268,28 @@ body{
     color: antiquewhite;
 }
 #project h1{
-    
-    font-size: 3vw;
+    margin-bottom: 2%;
+    font-size: 2.5vw;
 }
 #project>div{
-    display:flex;
+    width: 80%;
+    margin: auto;
+    display: grid;   
+    grid-template-columns:repeat(2,1fr);
     justify-content: center;
     align-items: center;
-    gap: 2vw;
-    height: 35vw;
+    gap: 3vw;
 }
 .container .card
 {
-    width: 40%;
-    height: 25vw;
+    width: 100%;
     margin: 30px 10px;
     padding: 20px 15px;
     box-shadow: 0 5px 20px rgba(0,0,0,0.5);
-    transition: 0.3s ease-in-out;
     background-color:chocolate;
     border-radius: 3vh;
 }
-.container .card:hover
-{
-    height: 100%;
-}
+
 .container .card .imgContainer
 {
     position: relative;
@@ -280,18 +316,18 @@ body{
     padding: 10px 15px;
     text-align: center;
     color:antiquewhite;
-    visibility: hidden;
-    opacity: 0;
+    visibility: visible;
+    opacity: 1;
     pointer-events: none;
-    transition: 0.3s ease-in-out;
+    margin-top: -40px;
 }
-.container .card:hover .content
+/* .container .card:hover .content
 {
     visibility: visible;
     opacity: 1;
     margin-top: -40px;
     transition-delay: 0.3s;
-}
+} */
 #links>a>img{
     width: 10%;
     cursor: pointer;
@@ -539,11 +575,11 @@ textarea, #message {
 }
 #resume{
     margin-top: 3%;
-    width:15%;
+    width:25%;
     padding:1%;
     border-radius:5px;
     text-decoration: underline;
-    background-color: #b2d6f6;
+    background-color: white;
     /* margin-right: 80%; */
     cursor: pointer;
     color: antiquewhite;
@@ -582,7 +618,7 @@ textarea, #message {
     }
     .container .card
     {   width: 95%;
-        height: 65%;
+        height: 100%;
         margin:50px auto;
     }
 
@@ -639,6 +675,10 @@ textarea, #message {
    
 }
 @media only screen and (max-width: 480px) {
+
+    .grid-wrapper li>img{
+        width: 60%;
+    }
     .contact-info a {
     
     font-size: 0.8rem;
@@ -691,7 +731,7 @@ textarea, #message {
     }
     .container .card
     {   width: 95%;
-        height: 180px;
+        height: 100%;
         margin:50px auto;
     }#techlogo .techlogo-wrap {
         display: block;
