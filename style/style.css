@@ -156,16 +156,17 @@ body{
     background-color: chocolate;
     border-radius:10px ;
     margin: auto;
-    max-width: 88%;
+    width: 86%;
     padding:2rem 1rem;
 }
 .grid-wrapper{
     --auto-grid-min-size: 8rem;
     display: grid;
-    grid-gap: 1rem;
-    grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
+    grid-gap: 2%;
+    grid-template-columns: repeat(4,1fr);
     margin: 0;
-    padding: 0;
+    padding: 2%;
+    padding-bottom: 4%;
     box-sizing: border-box;
 
 }
@@ -178,7 +179,7 @@ body{
     text-transform: capitalize;
 }
 .grid-wrapper li>img{
-    width: 100%;
+    width: 60%;
 }
 
 
@@ -604,6 +605,12 @@ textarea, #message {
 }
 
 @media only screen and (max-width: 900px) {
+
+    .grid-wrapper{
+        
+        grid-template-columns: repeat(3,1fr);
+    }
+
     
     #Navbar{
         display: none;
@@ -696,8 +703,13 @@ textarea, #message {
 }
 @media only screen and (max-width: 480px) {
 
+    .grid-wrapper{
+        
+        grid-template-columns: repeat(2,1fr);
+    }
+
     .grid-wrapper li>img{
-        width: 60%;
+        width: 50%;
     }
     .contact-info a {
     
