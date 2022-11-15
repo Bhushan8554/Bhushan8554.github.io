@@ -233,7 +233,7 @@ body{
     border-radius: 3vh;
     text-align: center;
     color: antiquewhite;
-    font-size: 3vh;
+    font-size: 2.5vh;
    
     
 }#skills>h2{
@@ -275,12 +275,15 @@ body{
 }
 #project>div{
     width: 80%;
-    margin: auto;
+    margin: 70px auto;
     display: grid;   
     grid-template-columns:repeat(2,1fr);
     justify-content: center;
     align-items: center;
-    gap: 3vw;
+    gap: 5%;
+}
+#project>div>div{
+    margin-top: 10px;
 }
 .container .card
 {
@@ -317,6 +320,9 @@ body{
 }
 .content>div>div>h4{
     font-size: 70%;
+}
+.content>h3:nth-child(2){
+    margin: 3% auto;
 }
 .container .card .content
 {
@@ -610,7 +616,9 @@ textarea, #message {
         
         grid-template-columns: repeat(3,1fr);
     }
-
+    #skills{
+        font-size: 1.5vh;
+    }
     
     #Navbar{
         display: none;
@@ -698,6 +706,13 @@ textarea, #message {
         background-color: white;
         /* margin-right: 80%; */
         cursor: pointer;
+    }#project>div>div{
+        margin-top: 100px;
+    }
+    #skills>div{   
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: auto;
+        gap: 3vw;
     }
    
 }
@@ -778,7 +793,10 @@ textarea, #message {
         overflow: hidden;
 
     }
-    
+    #project>div>div{
+        margin-top: 100px;
+    }
+
     #gitStats>div{
         display: flex;
         flex-direction: column;
