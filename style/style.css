@@ -673,10 +673,9 @@ textarea, #message {
         padding:1%;
         border-radius:5px;
         text-decoration: underline;
-        background-color: #b2d6f6;
+        background-color: white;
         /* margin-right: 80%; */
         cursor: pointer;
-        color: antiquewhite;
     }
    
 }
@@ -766,10 +765,9 @@ textarea, #message {
         padding:1%;
         border-radius:5px;
         text-decoration: underline;
-        background-color: #b2d6f6;
+        background-color: white;
         /* margin-right: 80%; */
         cursor: pointer;
-        color: antiquewhite;
     }
 
 }
