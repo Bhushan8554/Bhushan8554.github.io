@@ -318,6 +318,11 @@ body{
     font-size: 2vw;
 }
 
+.content h3{
+
+    font-size:120%;
+}
+
 .content>div>div>img{
     width:40%;
 }
@@ -832,6 +837,10 @@ textarea, #message {
       #project h1{
         margin-bottom: 0%;
         font-size: 150%;
+    }
+    .content h3{
+
+        font-size:50%;
     }
 }
 
