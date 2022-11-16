@@ -271,7 +271,7 @@ body{
 }
 #project h1{
     margin-bottom: 2%;
-    font-size: 2.5vw;
+    font-size: 300%;
 }
 #project>div{
     width: 80%;
@@ -442,7 +442,7 @@ body{
 }
 
 #co-title {
-  font-size: 1.2rem;
+  font-size: 200%;
   font-weight: 700;
   color: white;
   text-transform: uppercase;
@@ -823,8 +823,16 @@ textarea, #message {
         background-color: white;
         /* margin-right: 80%; */
         cursor: pointer;
+    }#co-title {
+        font-size: 150%;
+        font-weight: 700;
+        color: white;
+        text-transform: uppercase;
+      }
+      #project h1{
+        margin-bottom: 0%;
+        font-size: 150%;
     }
-
 }
 
 
