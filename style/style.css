@@ -21,6 +21,8 @@
     top: 0%;
     padding: 2vh;
     background-color: #b2d6f6;
+    border-color: rgb(53, 53, 53);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 #Navbar>#hm{
     flex: 1;
@@ -37,6 +39,8 @@
     top: 0%;
     border-radius: 2vh;
     background-color: #b2d6f6;
+    border-color: rgb(53, 53, 53);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }#navbar>button{
     border-radius: 1vh;
     padding: 1vh 2vh;
@@ -51,6 +55,8 @@
     font-weight: bold;
     font-style: italic;
     cursor: pointer;
+    border-color: rgb(53, 53, 53);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 #Navbar>a>button{
     border-radius: 1vh;
@@ -64,6 +70,8 @@
     font-style: italic;
     margin-right: 1%;
     cursor: pointer;
+    border-color: rgb(53, 53, 53);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 #hiddenNb>a>button{
     border-radius: 1vh;
@@ -79,6 +87,8 @@
     font-style: italic;
     cursor: pointer;
     width: 60%;
+    border-color: rgb(53, 53, 53);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 #hiddenNb{
     position: absolute;
@@ -94,12 +104,14 @@
     height: 260px;
     left: 10px;
     text-align: center;
+    border-color: rgb(53, 53, 53);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 body{
-    background-color:rgb(254, 143, 99);
+    /* background-color:transparent; */
 }
 #about{
-    background-color: rgb(254, 143, 99);
+    background-color:transparent;
     width: 85%;
     margin:auto;
     margin-top: 6%;
@@ -119,6 +131,8 @@ body{
     border-radius: 3vh;
     color:white;
     padding: 2vh 3vh;
+    border-color: rgb(53, 53, 53);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 #about>div:first-child>div{
     /* background-color:rgb(53, 53, 53); */
@@ -141,6 +155,8 @@ body{
     justify-content:center;
     text-align: center;
     padding: 3vh;
+    border-color: rgb(53, 53, 53);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 #about>div>div>img{
     width: 35%;
@@ -158,6 +174,8 @@ body{
     margin: auto;
     width: 86%;
     padding:2rem 1rem;
+    border-color: rgb(53, 53, 53);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 .grid-wrapper{
     --auto-grid-min-size: 8rem;
@@ -228,7 +246,7 @@ body{
 #skills{
     width: 88%;
     margin:3vw auto;
-    background-color: rgb(254, 143, 99);
+    background-color: transparent;
     padding: 5vh;
     border-radius: 3vh;
     text-align: center;
@@ -254,6 +272,8 @@ body{
   background-color: rgb(53, 53, 53);
   padding: 10px;
   border-radius: 10px;
+  border-color: rgb(53, 53, 53);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }#skills>div>div>img{
     width: 20%;
 }
@@ -262,7 +282,7 @@ body{
 
 #project{
     margin: auto;
-    background-color: rgb(254, 143, 99);
+    background-color: transparent;
     width: 95%;
     border-radius: 3vh;
     padding: 3vh;
@@ -290,7 +310,8 @@ body{
     width: 100%;
     margin: 30px 10px;
     padding: 20px 15px;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+    border-color: rgb(53, 53, 53);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     background-color:rgb(53, 53, 53);
     border-radius: 3vh;
 }
@@ -303,7 +324,8 @@ body{
     margin: auto;
     z-index: 1;
     border-radius: 3vh;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+    border-color: rgb(53, 53, 53);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 .imgContainer{
     background-color: rgb(187, 101, 67);
@@ -370,13 +392,15 @@ body{
     margin: 2% auto;
 }#gatcal>div{
     color: rgb(53, 53, 53);
+    border-color: rgb(53, 53, 53);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 
 #stats{
     width: 95%;
     margin: 2% auto;
-    background-color: rgb(254, 143, 99);
+    background-color: transparent;
     border-radius: 3vh;
     padding: 20px;
     color: white;
@@ -384,6 +408,7 @@ body{
 }
 #stats>h1{
     margin: 1% auto;
+    
 }
 #stats>div{
     width: 90%;
@@ -391,17 +416,25 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    
+    gap: 5%;
     text-align: center;
     color: white;
     
-}#stats>div>div>div{
+}#stats>div>div{
+    width: 20%;
+    font-size: 100%;
+}
+
+#stats>div>div>div{
     width: 10vw;
     height: 10vw;
     margin: auto;
     border-radius:50%;
     border: 10px solid;
+    margin-bottom: 10%;
     border-color: rgb(53, 53, 53);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -414,7 +447,7 @@ body{
 #gitStats{
     width: 95%;
     margin: auto;
-    background-color: rgb(254, 143, 99);
+    background-color: transparent;
     padding: 2%;
     border-radius:3vh ;text-align: center;
     color: white;
@@ -434,7 +467,7 @@ body{
   display: flex;
   flex-direction: column; 
   position: relative;
-  background:rgb(254, 143, 99);
+  background:transparent;
   width:95%;
   margin:auto;
   border-radius:3vh;
@@ -544,7 +577,8 @@ textarea, #message {
 #form-btn:hover {
   opacity: 0.9;
   transform: translateY(-2.5%);
-  box-shadow: 0 0 15px 0 #000;
+  border-color: rgb(53, 53, 53);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 .contact-info {
@@ -556,6 +590,8 @@ textarea, #message {
   padding: 2rem;
   border-radius: 3vh;
   background-color: rgb(53, 53, 53);
+  border-color: rgb(53, 53, 53);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 .contact-info h3 {
@@ -619,6 +655,16 @@ textarea, #message {
 }
 
 @media only screen and (max-width: 900px) {
+
+    #stats>div>div{
+        width: 20%;
+        font-size: 50%;
+    }
+
+    #stats>div{
+        
+        gap: 5%;
+    }
 
     .grid-wrapper{
         
@@ -725,6 +771,11 @@ textarea, #message {
    
 }
 @media only screen and (max-width: 480px) {
+    #stats>div>div{
+        width:auto;
+        font-size: 50%;
+        margin-top: 10%;
+    }
 
     .grid-wrapper{
         
@@ -755,6 +806,7 @@ textarea, #message {
         display: flex;
         justify-content: center;
         margin: auto;
+        margin-bottom: 5%;
     }
     #Navbar{
         display: none;
