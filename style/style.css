@@ -51,7 +51,7 @@
     font-family:monospace;
     border: transparent;
     text-align: center;
-    font-size: 2vw;
+    /* font-size: 2vw; */
     font-weight: bold;
     font-style: italic;
     cursor: pointer;
@@ -65,7 +65,7 @@
     font-family:monospace;
     border: transparent;
     text-align: center;
-    font-size: 1vw;
+    /* font-size: 1vw; */
     font-weight: bold;
     font-style: italic;
     margin-right: 1%;
@@ -82,7 +82,7 @@
     font-family:monospace;
     border: transparent;
     text-align: center;
-    font-size: 2vw;
+    /* font-size: 2vw; */
     font-weight: bold;
     font-style: italic;
     cursor: pointer;
@@ -108,7 +108,24 @@
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 body{
-    /* background-color:transparent; */
+    font-size: 100%;
+}
+h1{
+    font-size: 3.2vw;
+}
+h2{
+    font-size: 2vw;
+}
+h3{
+    font-size: 1.2vw;
+}
+h4{
+    font-size: 1.1vw;
+}
+p{
+    font-size: 1vw;
+}a{
+    font-size: 1vw;
 }
 #about{
     background-color:transparent;
@@ -119,10 +136,10 @@ body{
     display: flex;
     padding: 2vh;
 }#about h1{
-    font-size: 2vw;
+    /* font-size: 2vw; */
 }
 #about h3{
-    font-size: 1vw;
+    /* font-size: 1vw; */
 }
 #about>div:first-child{
     background-color:rgb(53, 53, 53);
@@ -153,7 +170,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content:center;
-    text-align: center;
+    text-align:justify;
     padding: 3vh;
     border-color: rgb(53, 53, 53);
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
@@ -190,7 +207,7 @@ body{
 }
 .grid-wrapper li{
     color: #ffffff;
-    font-size: 24px;
+    /* font-size: 24px; */
     list-style-type: none;
     padding: 1rem 1rem;
     text-align: center;
@@ -251,11 +268,11 @@ body{
     border-radius: 3vh;
     text-align: center;
     color: white;
-    font-size: 2.5vh;
+    /* font-size: 2.5vh; */
    
     
-}#skills>h2{
-    margin-bottom: 1%;
+}#skills>h1{
+    margin-bottom: 3%;
 }
 #skills>div{
     width: 100%;
@@ -291,7 +308,7 @@ body{
 }
 #project h1{
     margin-bottom: 2%;
-    font-size: 300%;
+    /* font-size: 300%; */
 }
 #project>div{
     width: 80%;
@@ -337,19 +354,19 @@ body{
     border-radius: 3vh 3vh 1vh 1vh;
 }
 .imgContainer h2{
-    font-size: 2vw;
+    /* font-size: 2vw; */
 }
 
 .content h3{
-
-    font-size:120%;
+/* 
+    font-size:120%; */
 }
 
 .content>div>div>img{
     width:40%;
 }
 .content>div>div>h4{
-    font-size: 70%;
+    /* font-size: 70%; */
 }
 .content>h3:nth-child(2){
     margin: 3% auto;
@@ -407,7 +424,7 @@ body{
     text-align: center;
 }
 #stats>h1{
-    margin: 1% auto;
+    margin: 3% auto;
     
 }
 #stats>div{
@@ -422,7 +439,7 @@ body{
     
 }#stats>div>div{
     width: 20%;
-    font-size: 100%;
+    /* font-size: 100%; */
 }
 
 #stats>div>div>div{
@@ -479,15 +496,15 @@ body{
   text-align: center;
 }
 
-#co-title {
+/* #co-title {
   font-size: 200%;
   font-weight: 700;
   color: white;
   text-transform: uppercase;
-}
+} */
 
 #co-text {
-  font-size: 3rem;
+  /* font-size: 3rem; */
   color: white;
   padding-bottom: 2rem;
 }
@@ -509,7 +526,7 @@ body{
 
 #form-title {
   color: white;
-  font-size: 1rem;
+  /* font-size: 1rem; */
   text-transform: uppercase;
   letter-spacing: 1.2px;
   line-height: 1px;
@@ -546,7 +563,7 @@ fieldset {
   background: transparent;
   border: none;
   letter-spacing: 2px;
-  font-size: 1rem;
+  /* font-size: 1rem; */
   line-height: 2rem;
   padding-bottom: 0.7rem;
 }
@@ -596,7 +613,7 @@ textarea, #message {
 
 .contact-info h3 {
   font-family: "Montserrat", sans-serif;
-  font-size: 1.2rem;
+  /* font-size: 1.2rem; */
   color: white;
 }
 
@@ -604,7 +621,7 @@ textarea, #message {
   font-family: "Montserrat", sans-serif;
   text-decoration: none;
   color: white;
-  font-size: 1.2rem;
+  /* font-size: 1.2rem; */
   letter-spacing: 0;
   line-height: 3rem;
   margin-bottom: 2rem;
@@ -617,7 +634,7 @@ textarea, #message {
 }
 
 .contact-info .fab {
-  font-size: 1.5rem;
+  /* font-size: 1.5rem; */
   line-height: 3rem;
   padding-left: 2rem;
   color: white;
@@ -632,7 +649,7 @@ textarea, #message {
 #resume a{
     text-decoration: none;
     color: black;
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
 }
 #resume{
     margin-top: 3%;
@@ -656,9 +673,26 @@ textarea, #message {
 
 @media only screen and (max-width: 900px) {
 
+
+    h1{
+        font-size: 5vw;
+    }
+    h2{
+        font-size: 4vw;
+    }
+    h3{
+        font-size: 2.5vw;
+    }
+    h4{
+        font-size: 2vw;
+    }
+    p{
+        font-size: 1.5vw;
+    }
+
     #stats>div>div{
         width: 20%;
-        font-size: 50%;
+        /* font-size: 50%; */
     }
 
     #stats>div{
@@ -671,7 +705,7 @@ textarea, #message {
         grid-template-columns: repeat(3,1fr);
     }
     #skills{
-        font-size: 1.5vh;
+        /* font-size: 1.5vh; */
     }
     
     #Navbar{
@@ -697,12 +731,8 @@ textarea, #message {
     }
     #about>div:last-child{
         width: 95%;
-    }#about h1{
-        font-size: 25px;
     }
-    #about h3{
-        font-size: 15px;
-    }#project>div{
+    #project>div{
         display:block;
         height:auto;
     }
@@ -728,20 +758,20 @@ textarea, #message {
     #form-title {
         margin: 3rem auto;
         width: 100%;
-        font-size: 1.5rem;
+        /* font-size: 1.5rem; */
     }
     
     .contact-header{
         margin: 5rem 5rem 3rem 5rem;
     }
     
-    #co-title {
+    /* #co-title {
         font-size: 1rem;
-    }
+    } */
     
-    #co-text {
+    /* #co-text {
         font-size: 2.5rem;
-    }
+    } */
     
     .contact-form {
         padding: 2rem;
@@ -749,7 +779,7 @@ textarea, #message {
     #resume a{
         text-decoration: none;
         color: black;
-        font-size: 1.2rem;
+        /* font-size: 1.2rem; */
     }
     #resume{
         margin-top: 3%;
@@ -771,9 +801,26 @@ textarea, #message {
    
 }
 @media only screen and (max-width: 480px) {
+
+    h1{
+        font-size: 5vw;
+    }
+    h2{
+        font-size: 4vw;
+    }
+    h3{
+        font-size: 2.5vw;
+    }
+    h4{
+        font-size: 2vw;
+    }
+    p{
+        font-size: 1.5vw;
+    }
+
     #stats>div>div{
         width:auto;
-        font-size: 50%;
+        /* font-size: 50%; */
         margin-top: 10%;
     }
 
@@ -787,12 +834,12 @@ textarea, #message {
     }
     .contact-info a {
     
-    font-size: 0.8rem;
+    /* font-size: 0.8rem; */
     
     }#form-title {
     margin: 3rem auto;
     width: 100%;
-    font-size: 0.8rem;
+    /* font-size: 0.8rem; */
     }
     #stats>div{
         width: 90%;
@@ -832,11 +879,9 @@ textarea, #message {
     #about>div:last-child{
         width: 95%;
         display: block;
-    }#about h1{
-        font-size: 20px;
     }
     #about h3{
-        font-size: 10px;
+        /* font-size: 10px; */
     }
     #skills>div{   
         grid-template-columns: repeat(1,1fr);
@@ -869,7 +914,7 @@ textarea, #message {
     #resume a{
         text-decoration: none;
         color: black;
-        font-size: 1rem;
+        /* font-size: 1rem; */
     }
     #resume{
         margin-top: 3%;
@@ -881,18 +926,18 @@ textarea, #message {
         /* margin-right: 80%; */
         cursor: pointer;
     }#co-title {
-        font-size: 150%;
+        /* font-size: 150%; */
         font-weight: 700;
         color: white;
         text-transform: uppercase;
       }
       #project h1{
         margin-bottom: 0%;
-        font-size: 150%;
+        /* font-size: 150%; */
     }
     .content h3{
 
-        font-size:50%;
+        /* font-size:50%; */
     }
 }
 
