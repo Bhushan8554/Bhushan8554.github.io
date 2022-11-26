@@ -125,7 +125,10 @@ h4{
 p{
     font-size: 1vw;
 }a{
-    font-size: 1vw;
+    font-size: 1.2vw;
+}
+button{
+    font-size: 1.1vw;
 }
 #about{
     background-color:transparent;
@@ -690,6 +693,13 @@ textarea, #message {
         font-size: 1.5vw;
     }
 
+    a{
+        font-size: 2vw;
+    }
+    button{
+        font-size: 1.7vw;
+    }
+
     #stats>div>div{
         width: 20%;
         /* font-size: 50%; */
@@ -815,7 +825,14 @@ textarea, #message {
         font-size: 2vw;
     }
     p{
-        font-size: 1.5vw;
+        font-size: 1.9vw;
+    }
+
+    a{
+        font-size: 2.5vw;
+    }
+    button{
+        font-size: 2vw;
     }
 
     #stats>div>div{
@@ -859,13 +876,18 @@ textarea, #message {
         display: none;
     }#navbar{
         display: block;
+        width: 23%;
         cursor: pointer;
+        padding: 1.8%;
     }
     #hiddenNb{
-        height: 320px;
+        top: 5.2%;
+        width: 22%;
+        height: 300px;
         margin: auto;
     }
     #hiddenNb>a>button{
+        
         width: 80%;
     }
     #about{
